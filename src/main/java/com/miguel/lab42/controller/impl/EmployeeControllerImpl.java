@@ -49,7 +49,7 @@ public class EmployeeControllerImpl implements EmployeeController {
     @ResponseStatus(HttpStatus.CREATED)
     public void addAnotherEmployee(@RequestBody @Valid Employee employee) {
         employeeRepository.save(employee);
-//        employeerService.save(employee);
+//        employeeService.save(employee);
 
     }
 
